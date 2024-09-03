@@ -77,3 +77,5 @@ Once the service is running, you can access the Akimbo Admin interface by naviga
 - The IP address for the PostgreSQL container (`PG_HOST`) and the admin credentials can be adjusted as needed.
 - Make sure the PostgreSQL service is running and accessible from within the same Docker network.
 - This version is intended for localhost use only , i am not responsible for a security breach if you open this to the public internet. 
+
+![Project Logo](./images/dashboard.png)
