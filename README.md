@@ -35,6 +35,7 @@ akimbo-admin:
       ipv4_address: 10.5.0.212
 ```
 REPLACE "EDIT THIS" WITH EMAIL AND PASSWORD !!
+> **Note:** Ensure that the indentation matches the existing services.
 ### Step 2: Run the Docker Compose
 
 To start the Akimbo Admin service, navigate to the directory containing your `docker-compose.yml` file and run:
