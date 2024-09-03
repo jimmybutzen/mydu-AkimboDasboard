@@ -13,7 +13,7 @@ This repository contains the Docker setup for the Akimbo Admin service. This app
 ### Step 1: Update Docker Compose File
 
 Add the following content to the server installation `docker-compose.yml` file:
-REPLACE "EDIT THIS" WITH EMAIL AND PASSWORD !!
+
 
 ```yaml
 akimboadmin:
@@ -34,8 +34,7 @@ akimboadmin:
     vpcbr:
       ipv4_address: 10.5.0.212
 ```
-
-
+REPLACE "EDIT THIS" WITH EMAIL AND PASSWORD !!
 ### Step 2: Run the Docker Compose
 
 To start the Akimbo Admin service, navigate to the directory containing your `docker-compose.yml` file and run:
