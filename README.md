@@ -10,7 +10,7 @@ This repository contains the Docker setup for the Akimbo Admin service. This app
 
 ## Setting Up the Akimbo Admin
 
-### Step 1: Create a Docker Compose File
+### Step 1: Update Docker Compose File
 
 Add the following content to the server installation `docker-compose.yml` file:
 REPLACE "EDIT THIS" WITH EMAIL AND PASSWORD !!
