@@ -16,7 +16,7 @@ Add the following content to the server installation `docker-compose.yml` file:
 
 
 ```yaml
-akimboadmin:
+akimbo-admin:
   image: jimboakimbo/mydu-akimboadmin:latest
   ports:
     - '3010:3000'
@@ -40,7 +40,7 @@ REPLACE "EDIT THIS" WITH EMAIL AND PASSWORD !!
 To start the Akimbo Admin service, navigate to the directory containing your `docker-compose.yml` file and run:
 
 ```bash
-docker-compose up -d akimboadmin
+docker-compose up -d akimbo-admin
 ```
 
 This will start the Akimbo Admin service on port 3010 of your host machine.
