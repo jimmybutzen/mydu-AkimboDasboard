@@ -9,9 +9,9 @@ This repository contains the Docker setup for the Akimbo Admin service. This app
 - A Running server installation of mydu.
 
 ## Setting Up the Akimbo Admin
-### Step 1: Update Docker Compose File
+### Step 1: Download the Akimbo Admin Database Folder
 
-Add the following content to the server installation `docker-compose.yml` file:
+First, download the `/akimboadmin/db/` folder from the repository and place it in your server installation folder. This folder contains the initial SQLite database configuration required for the application.
 
 ### Step 3: Update Docker Compose File
 
