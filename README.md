@@ -9,8 +9,11 @@ This repository contains the Docker setup for the Akimbo Admin service. This app
 - A Running server installation of mydu.
 
 ## Setting Up the Akimbo Admin
-
 ### Step 1: Update Docker Compose File
+
+Add the following content to the server installation `docker-compose.yml` file:
+
+### Step 3: Update Docker Compose File
 
 Add the following content to the server installation `docker-compose.yml` file:
 
@@ -38,7 +41,7 @@ akimbo-admin:
 ```
 REPLACE "EDIT THIS" WITH EMAIL AND PASSWORD !!
 > **Note:** Ensure that the indentation matches the existing services.
-### Step 2: Run the Docker Compose
+### Step 3: Run the Docker Compose
 
 To start the Akimbo Admin service, navigate to the directory containing your `docker-compose.yml` file and run:
 
@@ -48,7 +51,7 @@ docker-compose up -d akimbo-admin
 
 This will start the Akimbo Admin service on port 3010 of your host machine.
 
-### Step 3: Initial Setup
+### Step 4: Initial Setup
 
 On first-time use, you need to log into the Docker container and create an admin user. Run the following commands:
 
@@ -70,7 +73,7 @@ On first-time use, you need to log into the Docker container and create an admin
    node create-admin.ts
    ```
 
-### Step 4: Access the Admin Interface
+### Step 5: Access the Admin Interface
 
 Once the service is running, you can access the Akimbo Admin interface by navigating to `http://localhost:3010` in your web browser.
 
