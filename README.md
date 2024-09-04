@@ -84,3 +84,5 @@ Once the service is running, you can access the Akimbo Admin interface by naviga
 - This version is intended for localhost use only , i am not responsible for a security breach if you open this to the public internet. 
 
 ![Project Logo](https://github.com/jimmybutzen/mydu-AkimboDasboard/blob/main/images/dashboard.PNG)
+![Project Logo](https://github.com/jimmybutzen/mydu-AkimboDasboard/blob/main/images/Player%20Skins.PNG)
+![Project Logo](https://github.com/jimmybutzen/mydu-AkimboDasboard/blob/main/images/item%20skins.PNG)
