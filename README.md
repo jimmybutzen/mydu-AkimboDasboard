@@ -30,6 +30,8 @@ akimbo-admin:
     ADMIN_EMAIL: "EDIT THIS"
     ADMIN_PASSWORD: "EDIT THIS"
   command: npm start
+  volumes:
+    - ./akimboadmin/db:/app/prisma 
   networks:
     vpcbr:
       ipv4_address: 10.5.0.212
