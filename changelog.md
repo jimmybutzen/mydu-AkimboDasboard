@@ -12,9 +12,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 
 ### Fixed
-- Fixed issue where the profile page would crash if no avatar was set.
-- Resolved caching issue that prevented new players from appearing in search results.
-- Corrected typo in the terms and conditions modal.
 
 ## [0.1.0] - 2024-09-03
 ### Added
