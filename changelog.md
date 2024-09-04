@@ -13,6 +13,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Fixed
 
+### Security
+
 ## [0.1.0] - 2024-09-03
 ### Added
 - Initial release of the project.
@@ -29,4 +31,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Resolved issue with not persistent db.
 - Resolved issue with Titles not showing up.
 
-### Security
+## [0.1.2] - 2024-09-04
+
+### Changed
+
+
+### Fixed
+- bug when adding a new package needed a refresh page , this is not needed anymore to show the new package correctly.
+- bug when deleting item skin packages fixed.
+
+
+
+
