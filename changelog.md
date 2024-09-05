@@ -33,12 +33,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [0.1.2] - 2024-09-04
 
-### Changed
-
-
 ### Fixed
 - bug when adding a new package needed a refresh page , this is not needed anymore to show the new package correctly.
 - bug when deleting item skin packages fixed.
+
+## [0.1.2] - 2024-09-05
+
+### Fixed
+- found another bug preventing to inserting titles for players. 
 
 
 
